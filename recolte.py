@@ -34,7 +34,7 @@ for k in l :
     r.append(tmp)
 
 import time
-nom = str(int(time.time()))+".json"
+nom = "data/"+str(int(time.time()))+".json"
 with open(nom, "w") as f :
     json.dump(r, f)
 
